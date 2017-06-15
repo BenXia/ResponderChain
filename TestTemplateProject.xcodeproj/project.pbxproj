@@ -15,6 +15,28 @@
 		33144EF61EF05059006D27AC /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 33144EEA1EF05059006D27AC /* UIUtils.m */; };
 		33144EF91EF05218006D27AC /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 33144EF81EF05218006D27AC /* NSString+Size.m */; };
 		337EEC291EDC3F2C00EDC166 /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EEC281EDC3F2C00EDC166 /* NSObject+DLIntrospection.m */; };
+		33EBA9091EF2CE41004624D7 /* TBCircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9061EF2CE41004624D7 /* TBCircularSlider.m */; };
+		33EBA90A1EF2CE41004624D7 /* CircularSliderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9081EF2CE41004624D7 /* CircularSliderVC.m */; };
+		33EBA90F1EF2D07B004624D7 /* GestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA90D1EF2D07B004624D7 /* GestureVC.m */; };
+		33EBA9101EF2D07B004624D7 /* GestureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EBA90E1EF2D07B004624D7 /* GestureVC.xib */; };
+		33EBA9191EF2D64C004624D7 /* CCHContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9141EF2D64C004624D7 /* CCHContentViewController.m */; };
+		33EBA91A1EF2D64C004624D7 /* CCHSuspendWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9161EF2D64C004624D7 /* CCHSuspendWindow.m */; };
+		33EBA91B1EF2D64C004624D7 /* SuspendViewDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9181EF2D64C004624D7 /* SuspendViewDemoVC.m */; };
+		33EBA9201EF2DB8F004624D7 /* FamiliarUsageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA91E1EF2DB8F004624D7 /* FamiliarUsageVC.m */; };
+		33EBA9211EF2DB8F004624D7 /* FamiliarUsageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EBA91F1EF2DB8F004624D7 /* FamiliarUsageVC.xib */; };
+		33EBA9241EF2DFC6004624D7 /* LargerResondAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9231EF2DFC6004624D7 /* LargerResondAreaButton.m */; };
+		33EBA9271EF2E8D4004624D7 /* CircularRespondAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9261EF2E8D4004624D7 /* CircularRespondAreaButton.m */; };
+		33EBA92A1EF2EC26004624D7 /* AlphaRespondAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9291EF2EC26004624D7 /* AlphaRespondAreaButton.m */; };
+		33EBA92D1EF2EFBE004624D7 /* ShapeAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA92C1EF2EFBE004624D7 /* ShapeAreaButton.m */; };
+		33EBA9321EF2FB17004624D7 /* ScrollViewDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9301EF2FB17004624D7 /* ScrollViewDemoVC.m */; };
+		33EBA9331EF2FB17004624D7 /* ScrollViewDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EBA9311EF2FB17004624D7 /* ScrollViewDemoVC.xib */; };
+		33EBA9381EF2FC23004624D7 /* BeyondSuperViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9361EF2FC23004624D7 /* BeyondSuperViewVC.m */; };
+		33EBA9391EF2FC23004624D7 /* BeyondSuperViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EBA9371EF2FC23004624D7 /* BeyondSuperViewVC.xib */; };
+		33EBA93C1EF2FD1C004624D7 /* UIResponder+PrintMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA93B1EF2FD1C004624D7 /* UIResponder+PrintMessage.m */; };
+		33EBA93F1EF30060004624D7 /* UIView+PrintMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA93E1EF30060004624D7 /* UIView+PrintMessage.m */; };
+		33EBA9441EF30628004624D7 /* SubViewOutsideCanRespondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9431EF30628004624D7 /* SubViewOutsideCanRespondView.m */; };
+		33EBA9471EF313BF004624D7 /* HackerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9461EF313BF004624D7 /* HackerScrollView.m */; };
+		33EBA94A1EF314D4004624D7 /* ScrollViewSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EBA9491EF314D4004624D7 /* ScrollViewSuperView.m */; };
 		B50394D81EEE71E00016FA97 /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B50394D61EEE71E00016FA97 /* HomePageVC.m */; };
 		B50394D91EEE71E00016FA97 /* HomePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50394D71EEE71E00016FA97 /* HomePageVC.xib */; };
 		B50394DE1EEE71FB0016FA97 /* PlaygroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B50394DC1EEE71FB0016FA97 /* PlaygroundVC.m */; };
@@ -52,6 +74,47 @@
 		33144EF81EF05218006D27AC /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
 		337EEC271EDC3F2C00EDC166 /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
 		337EEC281EDC3F2C00EDC166 /* NSObject+DLIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLIntrospection.m"; sourceTree = "<group>"; };
+		33EBA9041EF2CE41004624D7 /* Commons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
+		33EBA9051EF2CE41004624D7 /* TBCircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCircularSlider.h; sourceTree = "<group>"; };
+		33EBA9061EF2CE41004624D7 /* TBCircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCircularSlider.m; sourceTree = "<group>"; };
+		33EBA9071EF2CE41004624D7 /* CircularSliderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularSliderVC.h; sourceTree = "<group>"; };
+		33EBA9081EF2CE41004624D7 /* CircularSliderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularSliderVC.m; sourceTree = "<group>"; };
+		33EBA90C1EF2D07B004624D7 /* GestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureVC.h; sourceTree = "<group>"; };
+		33EBA90D1EF2D07B004624D7 /* GestureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureVC.m; sourceTree = "<group>"; };
+		33EBA90E1EF2D07B004624D7 /* GestureVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureVC.xib; sourceTree = "<group>"; };
+		33EBA9131EF2D64C004624D7 /* CCHContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHContentViewController.h; sourceTree = "<group>"; };
+		33EBA9141EF2D64C004624D7 /* CCHContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHContentViewController.m; sourceTree = "<group>"; };
+		33EBA9151EF2D64C004624D7 /* CCHSuspendWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHSuspendWindow.h; sourceTree = "<group>"; };
+		33EBA9161EF2D64C004624D7 /* CCHSuspendWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHSuspendWindow.m; sourceTree = "<group>"; };
+		33EBA9171EF2D64C004624D7 /* SuspendViewDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendViewDemoVC.h; sourceTree = "<group>"; };
+		33EBA9181EF2D64C004624D7 /* SuspendViewDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendViewDemoVC.m; sourceTree = "<group>"; };
+		33EBA91D1EF2DB8F004624D7 /* FamiliarUsageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamiliarUsageVC.h; sourceTree = "<group>"; };
+		33EBA91E1EF2DB8F004624D7 /* FamiliarUsageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamiliarUsageVC.m; sourceTree = "<group>"; };
+		33EBA91F1EF2DB8F004624D7 /* FamiliarUsageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FamiliarUsageVC.xib; sourceTree = "<group>"; };
+		33EBA9221EF2DFC6004624D7 /* LargerResondAreaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargerResondAreaButton.h; sourceTree = "<group>"; };
+		33EBA9231EF2DFC6004624D7 /* LargerResondAreaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargerResondAreaButton.m; sourceTree = "<group>"; };
+		33EBA9251EF2E8D4004624D7 /* CircularRespondAreaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularRespondAreaButton.h; sourceTree = "<group>"; };
+		33EBA9261EF2E8D4004624D7 /* CircularRespondAreaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularRespondAreaButton.m; sourceTree = "<group>"; };
+		33EBA9281EF2EC26004624D7 /* AlphaRespondAreaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaRespondAreaButton.h; sourceTree = "<group>"; };
+		33EBA9291EF2EC26004624D7 /* AlphaRespondAreaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaRespondAreaButton.m; sourceTree = "<group>"; };
+		33EBA92B1EF2EFBE004624D7 /* ShapeAreaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeAreaButton.h; sourceTree = "<group>"; };
+		33EBA92C1EF2EFBE004624D7 /* ShapeAreaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeAreaButton.m; sourceTree = "<group>"; };
+		33EBA92F1EF2FB17004624D7 /* ScrollViewDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewDemoVC.h; sourceTree = "<group>"; };
+		33EBA9301EF2FB17004624D7 /* ScrollViewDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewDemoVC.m; sourceTree = "<group>"; };
+		33EBA9311EF2FB17004624D7 /* ScrollViewDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewDemoVC.xib; sourceTree = "<group>"; };
+		33EBA9351EF2FC23004624D7 /* BeyondSuperViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeyondSuperViewVC.h; sourceTree = "<group>"; };
+		33EBA9361EF2FC23004624D7 /* BeyondSuperViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeyondSuperViewVC.m; sourceTree = "<group>"; };
+		33EBA9371EF2FC23004624D7 /* BeyondSuperViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeyondSuperViewVC.xib; sourceTree = "<group>"; };
+		33EBA93A1EF2FD1C004624D7 /* UIResponder+PrintMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+PrintMessage.h"; sourceTree = "<group>"; };
+		33EBA93B1EF2FD1C004624D7 /* UIResponder+PrintMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+PrintMessage.m"; sourceTree = "<group>"; };
+		33EBA93D1EF30060004624D7 /* UIView+PrintMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PrintMessage.h"; sourceTree = "<group>"; };
+		33EBA93E1EF30060004624D7 /* UIView+PrintMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PrintMessage.m"; sourceTree = "<group>"; };
+		33EBA9421EF30628004624D7 /* SubViewOutsideCanRespondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewOutsideCanRespondView.h; sourceTree = "<group>"; };
+		33EBA9431EF30628004624D7 /* SubViewOutsideCanRespondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewOutsideCanRespondView.m; sourceTree = "<group>"; };
+		33EBA9451EF313BF004624D7 /* HackerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HackerScrollView.h; sourceTree = "<group>"; };
+		33EBA9461EF313BF004624D7 /* HackerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HackerScrollView.m; sourceTree = "<group>"; };
+		33EBA9481EF314D4004624D7 /* ScrollViewSuperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewSuperView.h; sourceTree = "<group>"; };
+		33EBA9491EF314D4004624D7 /* ScrollViewSuperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewSuperView.m; sourceTree = "<group>"; };
 		5C6D28EEC1B5E3424CF2308B /* Pods-TestTemplateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTemplateProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTemplateProject/Pods-TestTemplateProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8667C82644C5D48169DF56D2 /* Pods-TestTemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTemplateProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTemplateProject/Pods-TestTemplateProject.release.xcconfig"; sourceTree = "<group>"; };
 		B50394D51EEE71E00016FA97 /* HomePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageVC.h; sourceTree = "<group>"; };
@@ -153,6 +216,10 @@
 				33144EF81EF05218006D27AC /* NSString+Size.m */,
 				330F7C0A1ED349AB0009280A /* UIView+Helper.h */,
 				330F7C0B1ED349AB0009280A /* UIView+Helper.m */,
+				33EBA93A1EF2FD1C004624D7 /* UIResponder+PrintMessage.h */,
+				33EBA93B1EF2FD1C004624D7 /* UIResponder+PrintMessage.m */,
+				33EBA93D1EF30060004624D7 /* UIView+PrintMessage.h */,
+				33EBA93E1EF30060004624D7 /* UIView+PrintMessage.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -197,6 +264,12 @@
 				B50394D61EEE71E00016FA97 /* HomePageVC.m */,
 				B50394D71EEE71E00016FA97 /* HomePageVC.xib */,
 				B5FA68CA1EF287950077349C /* ResponderDescVC */,
+				33EBA91C1EF2DB6E004624D7 /* FamiliarUsageVC */,
+				33EBA9341EF2FC10004624D7 /* BeyondSuperViewVC */,
+				33EBA92E1EF2FAFE004624D7 /* ScrollViewDemo */,
+				33EBA9111EF2D64C004624D7 /* SuspendViewDemo */,
+				33EBA9031EF2CE41004624D7 /* CircularSliderVC */,
+				33EBA90B1EF2D07B004624D7 /* GestureVC */,
 				B50394DA1EEE71FB0016FA97 /* Playground */,
 			);
 			path = ViewController;
@@ -228,6 +301,93 @@
 				337EEC281EDC3F2C00EDC166 /* NSObject+DLIntrospection.m */,
 			);
 			path = DLIntrospection;
+			sourceTree = "<group>";
+		};
+		33EBA9031EF2CE41004624D7 /* CircularSliderVC */ = {
+			isa = PBXGroup;
+			children = (
+				33EBA9041EF2CE41004624D7 /* Commons.h */,
+				33EBA9051EF2CE41004624D7 /* TBCircularSlider.h */,
+				33EBA9061EF2CE41004624D7 /* TBCircularSlider.m */,
+				33EBA9071EF2CE41004624D7 /* CircularSliderVC.h */,
+				33EBA9081EF2CE41004624D7 /* CircularSliderVC.m */,
+			);
+			path = CircularSliderVC;
+			sourceTree = "<group>";
+		};
+		33EBA90B1EF2D07B004624D7 /* GestureVC */ = {
+			isa = PBXGroup;
+			children = (
+				33EBA90C1EF2D07B004624D7 /* GestureVC.h */,
+				33EBA90D1EF2D07B004624D7 /* GestureVC.m */,
+				33EBA90E1EF2D07B004624D7 /* GestureVC.xib */,
+			);
+			path = GestureVC;
+			sourceTree = "<group>";
+		};
+		33EBA9111EF2D64C004624D7 /* SuspendViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33EBA9121EF2D64C004624D7 /* CCHSuspendWindow */,
+				33EBA9171EF2D64C004624D7 /* SuspendViewDemoVC.h */,
+				33EBA9181EF2D64C004624D7 /* SuspendViewDemoVC.m */,
+			);
+			path = SuspendViewDemo;
+			sourceTree = "<group>";
+		};
+		33EBA9121EF2D64C004624D7 /* CCHSuspendWindow */ = {
+			isa = PBXGroup;
+			children = (
+				33EBA9131EF2D64C004624D7 /* CCHContentViewController.h */,
+				33EBA9141EF2D64C004624D7 /* CCHContentViewController.m */,
+				33EBA9151EF2D64C004624D7 /* CCHSuspendWindow.h */,
+				33EBA9161EF2D64C004624D7 /* CCHSuspendWindow.m */,
+			);
+			path = CCHSuspendWindow;
+			sourceTree = "<group>";
+		};
+		33EBA91C1EF2DB6E004624D7 /* FamiliarUsageVC */ = {
+			isa = PBXGroup;
+			children = (
+				33EBA91D1EF2DB8F004624D7 /* FamiliarUsageVC.h */,
+				33EBA91E1EF2DB8F004624D7 /* FamiliarUsageVC.m */,
+				33EBA91F1EF2DB8F004624D7 /* FamiliarUsageVC.xib */,
+				33EBA9221EF2DFC6004624D7 /* LargerResondAreaButton.h */,
+				33EBA9231EF2DFC6004624D7 /* LargerResondAreaButton.m */,
+				33EBA9251EF2E8D4004624D7 /* CircularRespondAreaButton.h */,
+				33EBA9261EF2E8D4004624D7 /* CircularRespondAreaButton.m */,
+				33EBA92B1EF2EFBE004624D7 /* ShapeAreaButton.h */,
+				33EBA92C1EF2EFBE004624D7 /* ShapeAreaButton.m */,
+				33EBA9281EF2EC26004624D7 /* AlphaRespondAreaButton.h */,
+				33EBA9291EF2EC26004624D7 /* AlphaRespondAreaButton.m */,
+			);
+			path = FamiliarUsageVC;
+			sourceTree = "<group>";
+		};
+		33EBA92E1EF2FAFE004624D7 /* ScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33EBA92F1EF2FB17004624D7 /* ScrollViewDemoVC.h */,
+				33EBA9301EF2FB17004624D7 /* ScrollViewDemoVC.m */,
+				33EBA9311EF2FB17004624D7 /* ScrollViewDemoVC.xib */,
+				33EBA9451EF313BF004624D7 /* HackerScrollView.h */,
+				33EBA9461EF313BF004624D7 /* HackerScrollView.m */,
+				33EBA9481EF314D4004624D7 /* ScrollViewSuperView.h */,
+				33EBA9491EF314D4004624D7 /* ScrollViewSuperView.m */,
+			);
+			path = ScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		33EBA9341EF2FC10004624D7 /* BeyondSuperViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				33EBA9351EF2FC23004624D7 /* BeyondSuperViewVC.h */,
+				33EBA9361EF2FC23004624D7 /* BeyondSuperViewVC.m */,
+				33EBA9371EF2FC23004624D7 /* BeyondSuperViewVC.xib */,
+				33EBA9421EF30628004624D7 /* SubViewOutsideCanRespondView.h */,
+				33EBA9431EF30628004624D7 /* SubViewOutsideCanRespondView.m */,
+			);
+			path = BeyondSuperViewVC;
 			sourceTree = "<group>";
 		};
 		7B8C9382664DA89AC4C34223 /* Pods */ = {
@@ -375,10 +535,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33EBA9101EF2D07B004624D7 /* GestureVC.xib in Resources */,
 				B50394D91EEE71E00016FA97 /* HomePageVC.xib in Resources */,
+				33EBA9391EF2FC23004624D7 /* BeyondSuperViewVC.xib in Resources */,
 				B50394DF1EEE71FB0016FA97 /* PlaygroundVC.xib in Resources */,
+				33EBA9211EF2DB8F004624D7 /* FamiliarUsageVC.xib in Resources */,
 				B5FA68CF1EF287BD0077349C /* ResponderDescVC.xib in Resources */,
 				330F7C021ED334380009280A /* Assets.xcassets in Resources */,
+				33EBA9331EF2FB17004624D7 /* ScrollViewDemoVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,22 +602,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				33144EF91EF05218006D27AC /* NSString+Size.m in Sources */,
+				33EBA9441EF30628004624D7 /* SubViewOutsideCanRespondView.m in Sources */,
 				33144EF61EF05059006D27AC /* UIUtils.m in Sources */,
 				B5FA68AD1EF26F870077349C /* BaseViewController.m in Sources */,
 				B5FA68DF1EF2AE0D0077349C /* CustomTextField.m in Sources */,
+				33EBA9381EF2FC23004624D7 /* BeyondSuperViewVC.m in Sources */,
 				B5FA68AE1EF26F870077349C /* BNNavigationController.m in Sources */,
+				33EBA93F1EF30060004624D7 /* UIView+PrintMessage.m in Sources */,
+				33EBA9271EF2E8D4004624D7 /* CircularRespondAreaButton.m in Sources */,
+				33EBA93C1EF2FD1C004624D7 /* UIResponder+PrintMessage.m in Sources */,
+				33EBA92D1EF2EFBE004624D7 /* ShapeAreaButton.m in Sources */,
+				33EBA9241EF2DFC6004624D7 /* LargerResondAreaButton.m in Sources */,
 				B50394D81EEE71E00016FA97 /* HomePageVC.m in Sources */,
 				B50394DE1EEE71FB0016FA97 /* PlaygroundVC.m in Sources */,
 				B5FA68DC1EF29C500077349C /* CustomControl.m in Sources */,
 				B5FA68D21EF28A8C0077349C /* BNCustomWindow.m in Sources */,
 				B5FA68CE1EF287BD0077349C /* ResponderDescVC.m in Sources */,
+				33EBA94A1EF314D4004624D7 /* ScrollViewSuperView.m in Sources */,
+				33EBA9321EF2FB17004624D7 /* ScrollViewDemoVC.m in Sources */,
 				330F7BF61ED333F00009280A /* AppDelegate.m in Sources */,
+				33EBA9091EF2CE41004624D7 /* TBCircularSlider.m in Sources */,
 				B5FA68D91EF293BF0077349C /* CustomButton.m in Sources */,
 				330F7C0D1ED349AB0009280A /* UIView+Helper.m in Sources */,
+				33EBA90F1EF2D07B004624D7 /* GestureVC.m in Sources */,
+				33EBA9471EF313BF004624D7 /* HackerScrollView.m in Sources */,
+				33EBA91B1EF2D64C004624D7 /* SuspendViewDemoVC.m in Sources */,
 				B5FA68AF1EF26F870077349C /* BNTabBarController.m in Sources */,
 				B5FA68D61EF2924F0077349C /* CustomView.m in Sources */,
+				33EBA9191EF2D64C004624D7 /* CCHContentViewController.m in Sources */,
 				330F7C001ED333F00009280A /* main.m in Sources */,
 				337EEC291EDC3F2C00EDC166 /* NSObject+DLIntrospection.m in Sources */,
+				33EBA92A1EF2EC26004624D7 /* AlphaRespondAreaButton.m in Sources */,
+				33EBA90A1EF2CE41004624D7 /* CircularSliderVC.m in Sources */,
+				33EBA91A1EF2D64C004624D7 /* CCHSuspendWindow.m in Sources */,
+				33EBA9201EF2DB8F004624D7 /* FamiliarUsageVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

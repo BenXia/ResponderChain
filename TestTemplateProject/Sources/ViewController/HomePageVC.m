@@ -8,6 +8,13 @@
 
 #import "HomePageVC.h"
 #import "ResponderDescVC.h"
+#import "FamiliarUsageVC.h"
+#import "BeyondSuperViewVC.h"
+#import "ScrollViewDemoVC.h"
+#import "SuspendViewDemoVC.h"
+#import "CircularSliderVC.h"
+#import "GestureVC.h"
+//#import "CheckPleaseVC.h"
 #import "PlaygroundVC.h"
 
 static const CGFloat kTableViewCellHeight = 60.0f;
@@ -74,11 +81,48 @@ static const CGFloat kTableViewCellHeight = 60.0f;
     // Do any additional setup after loading the view from its nib.
     
     HomePageCellModel *model1 = [HomePageCellModel modelWithTitle:@"UIResponder"
-                                                         subTitle:@"先详细看下其中的方法"
+                                                         subTitle:@"看下其头文件"
                                                           vcClass:[ResponderDescVC class]
                                                      navigationVC:self.navigationController];
     
-    self.dataSourceArray = [NSArray arrayWithObjects:model1, nil];
+    HomePageCellModel *model2 = [HomePageCellModel modelWithTitle:@"巧妙使用"
+                                                         subTitle:@"开发中遇到的一些案例"
+                                                          vcClass:[FamiliarUsageVC class]
+                                                     navigationVC:self.navigationController];
+    
+    HomePageCellModel *model3 = [HomePageCellModel modelWithTitle:@"子视图超出父视图"
+                                                         subTitle:@"重写hitTest:withEvent:"
+                                                          vcClass:[BeyondSuperViewVC class]
+                                                     navigationVC:self.navigationController];
+    
+    HomePageCellModel *model4 = [HomePageCellModel modelWithTitle:@"UIScrollView 案例"
+                                                         subTitle:@"经常遇到的 UIScrollView 案例"
+                                                          vcClass:[ScrollViewDemoVC class]
+                                                     navigationVC:self.navigationController];
+    
+    HomePageCellModel *model5 = [HomePageCellModel modelWithTitle:@"悬浮 Window"
+                                                         subTitle:@"一个别人封装的悬浮 Window"
+                                                          vcClass:[SuspendViewDemoVC class]
+                                                     navigationVC:self.navigationController];
+    
+    HomePageCellModel *model6 = [HomePageCellModel modelWithTitle:@"一个自定义UIControl"
+                                                         subTitle:@"基于 Responder 自己实现一个滑动控件"
+                                                          vcClass:[CircularSliderVC class]
+                                                     navigationVC:self.navigationController];
+    
+    HomePageCellModel *model7 = [HomePageCellModel modelWithTitle:@"UIGestureRecognizer"
+                                                         subTitle:@"看下其头文件"
+                                                          vcClass:[GestureVC class]
+                                                     navigationVC:self.navigationController];
+    
+    HomePageCellModel *model8 = [HomePageCellModel modelWithTitle:@"自定义手势"
+                                                         subTitle:@"一个打勾手势的识别"
+                                                          vcClass:[GestureVC class]
+                                                     navigationVC:self.navigationController];
+    
+
+    
+    self.dataSourceArray = [NSArray arrayWithObjects:model1, model2, model3, model4, model5, model6, model7, model8, nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

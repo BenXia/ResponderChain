@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GestureVC">
+            <connections>
+                <outlet property="button" destination="zfo-K6-FJI" id="gE8-Rk-w4N"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfo-K6-FJI">
+                    <rect key="frame" x="87.5" y="308.5" width="200" height="50"/>
+                    <color key="backgroundColor" red="0.26274509800000001" green="0.52156862749999999" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Jlt-A6-27i"/>
+                        <constraint firstAttribute="height" constant="50" id="XD3-lE-hXR"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didTouchDownButtonAction:" destination="-1" eventType="touchUpInside" id="yvh-H9-khb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="zfo-K6-FJI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Vd3-Xg-nUU"/>
+                <constraint firstItem="zfo-K6-FJI" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="gG0-JY-aoi"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

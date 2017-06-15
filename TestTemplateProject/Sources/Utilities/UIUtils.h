@@ -20,6 +20,8 @@
 #define IS_IPHONE_6          (IS_IPHONE && kScreenHeight == 667.0)
 #define IS_IPHONE_6P         (IS_IPHONE && kScreenHeight == 736.0)
 
+void BN_swapMethodsFromClass(Class c, SEL orig, SEL new);
+
 @interface UIUtils : NSObject
 
 /**

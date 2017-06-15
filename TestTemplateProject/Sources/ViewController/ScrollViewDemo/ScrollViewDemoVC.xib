@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScrollViewDemoVC">
+            <connections>
+                <outlet property="scrollContentView" destination="1lX-Mf-XW4" id="kkx-Hj-Q4X"/>
+                <outlet property="scrollContentViewWidthConstraint" destination="OuP-9P-mK7" id="TpD-BA-6t2"/>
+                <outlet property="scrollView" destination="xeY-f2-vOa" id="DsQ-Xg-D28"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ep9-vZ-va3" customClass="ScrollViewSuperView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeY-f2-vOa">
+                            <rect key="frame" x="50" y="89" width="275" height="489"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1lX-Mf-XW4">
+                                    <rect key="frame" x="0.0" y="0.0" width="275" height="489"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="275" id="OuP-9P-mK7"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="xeY-f2-vOa" secondAttribute="height" multiplier="9:16" id="6PG-PB-wGK"/>
+                                <constraint firstItem="1lX-Mf-XW4" firstAttribute="leading" secondItem="xeY-f2-vOa" secondAttribute="leading" id="7gW-uw-cXG"/>
+                                <constraint firstAttribute="trailing" secondItem="1lX-Mf-XW4" secondAttribute="trailing" id="DpI-8F-NLj"/>
+                                <constraint firstAttribute="bottom" secondItem="1lX-Mf-XW4" secondAttribute="bottom" id="RbA-kV-mdZ"/>
+                                <constraint firstItem="1lX-Mf-XW4" firstAttribute="top" secondItem="xeY-f2-vOa" secondAttribute="top" id="inU-FR-Q8a"/>
+                                <constraint firstItem="1lX-Mf-XW4" firstAttribute="centerY" secondItem="xeY-f2-vOa" secondAttribute="centerY" id="jBh-tr-9rd"/>
+                            </constraints>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="xeY-f2-vOa" firstAttribute="centerX" secondItem="ep9-vZ-va3" secondAttribute="centerX" id="AOJ-c2-Ak5"/>
+                        <constraint firstItem="xeY-f2-vOa" firstAttribute="leading" secondItem="ep9-vZ-va3" secondAttribute="leading" constant="50" id="vaW-Tr-sCr"/>
+                        <constraint firstItem="xeY-f2-vOa" firstAttribute="centerY" secondItem="ep9-vZ-va3" secondAttribute="centerY" id="vgp-8p-xVX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ep9-vZ-va3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Mdq-Ta-NR7"/>
+                <constraint firstAttribute="bottom" secondItem="ep9-vZ-va3" secondAttribute="bottom" id="i6C-5z-tuw"/>
+                <constraint firstAttribute="trailing" secondItem="ep9-vZ-va3" secondAttribute="trailing" id="toj-0b-kRV"/>
+                <constraint firstItem="ep9-vZ-va3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yOl-WM-pWg"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="97.5"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
