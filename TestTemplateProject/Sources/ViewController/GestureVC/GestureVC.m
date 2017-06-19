@@ -21,16 +21,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UITapGestureRecognizer *tapViewGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapViewGesture)];
-    NSLog (@"tapGesture: cancelsTouchesInView = %d, delaysTouchesBegan = %d, delaysTouchesEnded = %d", tapViewGesture.cancelsTouchesInView, tapViewGesture.delaysTouchesBegan, tapViewGesture.delaysTouchesEnded);
-    tapViewGesture.delaysTouchesBegan = YES;
-    [self.view addGestureRecognizer:tapViewGesture];
+//    UITapGestureRecognizer *tapViewGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapViewGesture)];
+//    NSLog (@"tapGesture: cancelsTouchesInView = %d, delaysTouchesBegan = %d, delaysTouchesEnded = %d", tapViewGesture.cancelsTouchesInView, tapViewGesture.delaysTouchesBegan, tapViewGesture.delaysTouchesEnded);
+//    tapViewGesture.delaysTouchesBegan = YES;
+//    [self.view addGestureRecognizer:tapViewGesture];
     
     UITapGestureRecognizer *tapButtonGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapButtonGesture)];
     NSLog (@"tapGesture: cancelsTouchesInView = %d, delaysTouchesBegan = %d, delaysTouchesEnded = %d", tapButtonGesture.cancelsTouchesInView, tapButtonGesture.delaysTouchesBegan, tapButtonGesture.delaysTouchesEnded);
+    tapButtonGesture.numberOfTapsRequired = 1;
     //tapButtonGesture.delaysTouchesBegan = YES;
-    
     [self.button addGestureRecognizer:tapButtonGesture];
+    
+    UITapGestureRecognizer *dbTapViewGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didDBTapButtonGesture)];
+    dbTapViewGesture.numberOfTapsRequired = 2;
+    
+    [self.button addGestureRecognizer:dbTapViewGesture];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
@@ -45,6 +50,10 @@
 
 - (void)didTapButtonGesture {
     NSLog (@"didTapButtonGesture");
+}
+
+- (void)didDBTapButtonGesture {
+    NSLog (@"didDBTapButtonGesture");
 }
 
 - (IBAction)didTouchDownButtonAction:(id)sender {

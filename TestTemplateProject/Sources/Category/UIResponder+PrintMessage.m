@@ -11,7 +11,7 @@
 
 @implementation UIResponder (PrintMessage)
 
-//+ (void)load {
++ (void)load {
 //    static dispatch_once_t onceToken;
 //    dispatch_once(&onceToken, ^{
 //        BN_swapMethodsFromClass([UIResponder class], @selector(touchesBegan:withEvent:), @selector(bn_touchesBegan:withEvent:));
@@ -20,7 +20,7 @@
 //        BN_swapMethodsFromClass([UIResponder class], @selector(touchesCancelled:withEvent:), @selector(bn_touchesCancelled:withEvent:));
 //        BN_swapMethodsFromClass([UIResponder class], @selector(touchesEstimatedPropertiesUpdated:), @selector(bn_touchesEstimatedPropertiesUpdated:));
 //    });
-//}
+}
 //
 //- (void)bn_touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 //{
