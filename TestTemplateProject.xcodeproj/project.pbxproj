@@ -41,6 +41,17 @@
 		B50394D91EEE71E00016FA97 /* HomePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50394D71EEE71E00016FA97 /* HomePageVC.xib */; };
 		B50394DE1EEE71FB0016FA97 /* PlaygroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B50394DC1EEE71FB0016FA97 /* PlaygroundVC.m */; };
 		B50394DF1EEE71FB0016FA97 /* PlaygroundVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50394DD1EEE71FB0016FA97 /* PlaygroundVC.xib */; };
+		B564802F1EF92268009CF536 /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B56480231EF92268009CF536 /* GCDGroup.m */; };
+		B56480301EF92268009CF536 /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B56480271EF92268009CF536 /* GCDQueue.m */; };
+		B56480311EF92268009CF536 /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = B56480291EF92268009CF536 /* GCDSemaphore.m */; };
+		B56480321EF92268009CF536 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = B564802C1EF92268009CF536 /* MBProgressHUD+Add.m */; };
+		B56480331EF92268009CF536 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B564802E1EF92268009CF536 /* MBProgressHUD.m */; };
+		B56480361EF922E9009CF536 /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B56480351EF922E9009CF536 /* CommonUtils.m */; };
+		B564803B1EF92301009CF536 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = B56480381EF92301009CF536 /* UIImage+Blur.m */; };
+		B564803C1EF92301009CF536 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = B564803A1EF92301009CF536 /* UIView+Hierarchy.m */; };
+		B56480411EF92315009CF536 /* BNPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B56480401EF92315009CF536 /* BNPopupWindow.m */; };
+		B56480481EF92346009CF536 /* BasePopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B56480441EF92346009CF536 /* BasePopoverVC.m */; };
+		B56480491EF92346009CF536 /* BaseWindowRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B56480471EF92346009CF536 /* BaseWindowRootVC.m */; };
 		B5FA68AD1EF26F870077349C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA68A61EF26F870077349C /* BaseViewController.m */; };
 		B5FA68AE1EF26F870077349C /* BNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA68A91EF26F870077349C /* BNNavigationController.m */; };
 		B5FA68AF1EF26F870077349C /* BNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA68AC1EF26F870077349C /* BNTabBarController.m */; };
@@ -123,6 +134,30 @@
 		B50394DB1EEE71FB0016FA97 /* PlaygroundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaygroundVC.h; sourceTree = "<group>"; };
 		B50394DC1EEE71FB0016FA97 /* PlaygroundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaygroundVC.m; sourceTree = "<group>"; };
 		B50394DD1EEE71FB0016FA97 /* PlaygroundVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaygroundVC.xib; sourceTree = "<group>"; };
+		B56480221EF92268009CF536 /* GCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
+		B56480231EF92268009CF536 /* GCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
+		B56480241EF92268009CF536 /* GCDMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDMacros.h; sourceTree = "<group>"; };
+		B56480251EF92268009CF536 /* GCDObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDObjC.h; sourceTree = "<group>"; };
+		B56480261EF92268009CF536 /* GCDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDQueue.h; sourceTree = "<group>"; };
+		B56480271EF92268009CF536 /* GCDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDQueue.m; sourceTree = "<group>"; };
+		B56480281EF92268009CF536 /* GCDSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDSemaphore.h; sourceTree = "<group>"; };
+		B56480291EF92268009CF536 /* GCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphore.m; sourceTree = "<group>"; };
+		B564802B1EF92268009CF536 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		B564802C1EF92268009CF536 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		B564802D1EF92268009CF536 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B564802E1EF92268009CF536 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B56480341EF922E9009CF536 /* CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
+		B56480351EF922E9009CF536 /* CommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtils.m; sourceTree = "<group>"; };
+		B56480371EF92301009CF536 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		B56480381EF92301009CF536 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		B56480391EF92301009CF536 /* UIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierarchy.h"; sourceTree = "<group>"; };
+		B564803A1EF92301009CF536 /* UIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hierarchy.m"; sourceTree = "<group>"; };
+		B564803F1EF92315009CF536 /* BNPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopupWindow.h; sourceTree = "<group>"; };
+		B56480401EF92315009CF536 /* BNPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopupWindow.m; sourceTree = "<group>"; };
+		B56480431EF92346009CF536 /* BasePopoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePopoverVC.h; sourceTree = "<group>"; };
+		B56480441EF92346009CF536 /* BasePopoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePopoverVC.m; sourceTree = "<group>"; };
+		B56480461EF92346009CF536 /* BaseWindowRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWindowRootVC.h; sourceTree = "<group>"; };
+		B56480471EF92346009CF536 /* BaseWindowRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWindowRootVC.m; sourceTree = "<group>"; };
 		B5FA68A51EF26F870077349C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		B5FA68A61EF26F870077349C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		B5FA68A81EF26F870077349C /* BNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNNavigationController.h; sourceTree = "<group>"; };
@@ -200,6 +235,7 @@
 				33144ED41EF05059006D27AC /* Utilities */,
 				330F7BDB1ED333F00009280A /* Category */,
 				B5FA68A31EF26F870077349C /* Base */,
+				B564803D1EF92315009CF536 /* Common */,
 				330F7BE11ED333F00009280A /* Network */,
 				330F7BE31ED333F00009280A /* View */,
 				330F7BEE1ED333F00009280A /* ViewController */,
@@ -212,10 +248,14 @@
 		330F7BDB1ED333F00009280A /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				33144EF71EF05218006D27AC /* NSString+Size.h */,
-				33144EF81EF05218006D27AC /* NSString+Size.m */,
+				B56480391EF92301009CF536 /* UIView+Hierarchy.h */,
+				B564803A1EF92301009CF536 /* UIView+Hierarchy.m */,
 				330F7C0A1ED349AB0009280A /* UIView+Helper.h */,
 				330F7C0B1ED349AB0009280A /* UIView+Helper.m */,
+				33144EF71EF05218006D27AC /* NSString+Size.h */,
+				33144EF81EF05218006D27AC /* NSString+Size.m */,
+				B56480371EF92301009CF536 /* UIImage+Blur.h */,
+				B56480381EF92301009CF536 /* UIImage+Blur.m */,
 				33EBA93A1EF2FD1C004624D7 /* UIResponder+PrintMessage.h */,
 				33EBA93B1EF2FD1C004624D7 /* UIResponder+PrintMessage.m */,
 				33EBA93D1EF30060004624D7 /* UIView+PrintMessage.h */,
@@ -246,6 +286,8 @@
 			isa = PBXGroup;
 			children = (
 				337EEC261EDC3F2C00EDC166 /* DLIntrospection */,
+				B564802A1EF92268009CF536 /* MBProgressHUD */,
+				B56480211EF92268009CF536 /* GCDObjC */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -288,8 +330,10 @@
 			isa = PBXGroup;
 			children = (
 				33144EEB1EF05059006D27AC /* Utility.h */,
-				33144EE91EF05059006D27AC /* UIUtils.h */,
 				33144EEA1EF05059006D27AC /* UIUtils.m */,
+				33144EE91EF05059006D27AC /* UIUtils.h */,
+				B56480341EF922E9009CF536 /* CommonUtils.h */,
+				B56480351EF922E9009CF536 /* CommonUtils.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -409,10 +453,73 @@
 			path = Playground;
 			sourceTree = "<group>";
 		};
+		B56480211EF92268009CF536 /* GCDObjC */ = {
+			isa = PBXGroup;
+			children = (
+				B56480221EF92268009CF536 /* GCDGroup.h */,
+				B56480231EF92268009CF536 /* GCDGroup.m */,
+				B56480241EF92268009CF536 /* GCDMacros.h */,
+				B56480251EF92268009CF536 /* GCDObjC.h */,
+				B56480261EF92268009CF536 /* GCDQueue.h */,
+				B56480271EF92268009CF536 /* GCDQueue.m */,
+				B56480281EF92268009CF536 /* GCDSemaphore.h */,
+				B56480291EF92268009CF536 /* GCDSemaphore.m */,
+			);
+			path = GCDObjC;
+			sourceTree = "<group>";
+		};
+		B564802A1EF92268009CF536 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B564802B1EF92268009CF536 /* MBProgressHUD+Add.h */,
+				B564802C1EF92268009CF536 /* MBProgressHUD+Add.m */,
+				B564802D1EF92268009CF536 /* MBProgressHUD.h */,
+				B564802E1EF92268009CF536 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		B564803D1EF92315009CF536 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B564803E1EF92315009CF536 /* BNPopupWindow */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B564803E1EF92315009CF536 /* BNPopupWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B564803F1EF92315009CF536 /* BNPopupWindow.h */,
+				B56480401EF92315009CF536 /* BNPopupWindow.m */,
+			);
+			path = BNPopupWindow;
+			sourceTree = "<group>";
+		};
+		B56480421EF92346009CF536 /* BasePopoverVC */ = {
+			isa = PBXGroup;
+			children = (
+				B56480431EF92346009CF536 /* BasePopoverVC.h */,
+				B56480441EF92346009CF536 /* BasePopoverVC.m */,
+			);
+			path = BasePopoverVC;
+			sourceTree = "<group>";
+		};
+		B56480451EF92346009CF536 /* BaseWindowRootVC */ = {
+			isa = PBXGroup;
+			children = (
+				B56480461EF92346009CF536 /* BaseWindowRootVC.h */,
+				B56480471EF92346009CF536 /* BaseWindowRootVC.m */,
+			);
+			path = BaseWindowRootVC;
+			sourceTree = "<group>";
+		};
 		B5FA68A31EF26F870077349C /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				B5FA68A41EF26F870077349C /* BaseViewController */,
+				B56480421EF92346009CF536 /* BasePopoverVC */,
+				B56480451EF92346009CF536 /* BaseWindowRootVC */,
 				B5FA68A71EF26F870077349C /* BNNavigationController */,
 				B5FA68AA1EF26F870077349C /* BNTabBarController */,
 			);
@@ -601,18 +708,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56480301EF92268009CF536 /* GCDQueue.m in Sources */,
+				B56480361EF922E9009CF536 /* CommonUtils.m in Sources */,
+				B56480411EF92315009CF536 /* BNPopupWindow.m in Sources */,
 				33144EF91EF05218006D27AC /* NSString+Size.m in Sources */,
 				33EBA9441EF30628004624D7 /* SubViewOutsideCanRespondView.m in Sources */,
 				33144EF61EF05059006D27AC /* UIUtils.m in Sources */,
 				B5FA68AD1EF26F870077349C /* BaseViewController.m in Sources */,
+				B564802F1EF92268009CF536 /* GCDGroup.m in Sources */,
 				B5FA68DF1EF2AE0D0077349C /* CustomTextField.m in Sources */,
+				B56480331EF92268009CF536 /* MBProgressHUD.m in Sources */,
+				B56480321EF92268009CF536 /* MBProgressHUD+Add.m in Sources */,
 				33EBA9381EF2FC23004624D7 /* BeyondSuperViewVC.m in Sources */,
 				B5FA68AE1EF26F870077349C /* BNNavigationController.m in Sources */,
 				33EBA93F1EF30060004624D7 /* UIView+PrintMessage.m in Sources */,
+				B56480481EF92346009CF536 /* BasePopoverVC.m in Sources */,
 				33EBA9271EF2E8D4004624D7 /* CircularRespondAreaButton.m in Sources */,
 				33EBA93C1EF2FD1C004624D7 /* UIResponder+PrintMessage.m in Sources */,
 				33EBA92D1EF2EFBE004624D7 /* ShapeAreaButton.m in Sources */,
 				33EBA9241EF2DFC6004624D7 /* LargerResondAreaButton.m in Sources */,
+				B564803C1EF92301009CF536 /* UIView+Hierarchy.m in Sources */,
 				B50394D81EEE71E00016FA97 /* HomePageVC.m in Sources */,
 				B50394DE1EEE71FB0016FA97 /* PlaygroundVC.m in Sources */,
 				B5FA68DC1EF29C500077349C /* CustomControl.m in Sources */,
@@ -626,14 +741,17 @@
 				330F7C0D1ED349AB0009280A /* UIView+Helper.m in Sources */,
 				33EBA90F1EF2D07B004624D7 /* GestureVC.m in Sources */,
 				33EBA9471EF313BF004624D7 /* HackerScrollView.m in Sources */,
+				B56480311EF92268009CF536 /* GCDSemaphore.m in Sources */,
 				33EBA91B1EF2D64C004624D7 /* SuspendViewDemoVC.m in Sources */,
 				B5FA68AF1EF26F870077349C /* BNTabBarController.m in Sources */,
 				B5FA68D61EF2924F0077349C /* CustomView.m in Sources */,
 				33EBA9191EF2D64C004624D7 /* CCHContentViewController.m in Sources */,
 				330F7C001ED333F00009280A /* main.m in Sources */,
+				B564803B1EF92301009CF536 /* UIImage+Blur.m in Sources */,
 				337EEC291EDC3F2C00EDC166 /* NSObject+DLIntrospection.m in Sources */,
 				33EBA92A1EF2EC26004624D7 /* AlphaRespondAreaButton.m in Sources */,
 				33EBA90A1EF2CE41004624D7 /* CircularSliderVC.m in Sources */,
+				B56480491EF92346009CF536 /* BaseWindowRootVC.m in Sources */,
 				33EBA91A1EF2D64C004624D7 /* CCHSuspendWindow.m in Sources */,
 				33EBA9201EF2DB8F004624D7 /* FamiliarUsageVC.m in Sources */,
 			);
@@ -738,6 +856,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TestTemplateProject/Sources/Global/PrefixHeader.pch;
@@ -758,6 +877,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TestTemplateProject/Sources/Global/PrefixHeader.pch;
