@@ -14,7 +14,8 @@
 #import "SuspendViewDemoVC.h"
 #import "CircularSliderVC.h"
 #import "GestureVC.h"
-//#import "CheckPleaseVC.h"
+#import "GestureDeepVC.h"
+#import "CustomGestureVC.h"
 #import "PlaygroundVC.h"
 
 static const CGFloat kTableViewCellHeight = 60.0f;
@@ -110,19 +111,24 @@ static const CGFloat kTableViewCellHeight = 60.0f;
                                                           vcClass:[CircularSliderVC class]
                                                      navigationVC:self.navigationController];
     
-    HomePageCellModel *model7 = [HomePageCellModel modelWithTitle:@"UIGestureRecognizer"
-                                                         subTitle:@"看下其头文件"
+    HomePageCellModel *model7 = [HomePageCellModel modelWithTitle:@"常见的手势"
+                                                         subTitle:@"七种系统提供的手势识别器"
                                                           vcClass:[GestureVC class]
                                                      navigationVC:self.navigationController];
     
-    HomePageCellModel *model8 = [HomePageCellModel modelWithTitle:@"自定义手势"
-                                                         subTitle:@"一个打勾手势的识别"
-                                                          vcClass:[GestureVC class]
+    HomePageCellModel *model8 = [HomePageCellModel modelWithTitle:@"UIGestureRecognizer"
+                                                         subTitle:@"手势与响应链的影响"
+                                                          vcClass:[GestureDeepVC class]
+                                                     navigationVC:self.navigationController];
+    
+    HomePageCellModel *model9 = [HomePageCellModel modelWithTitle:@"自定义手势"
+                                                         subTitle:@"几个自定义手势的实现"
+                                                          vcClass:[CustomGestureVC class]
                                                      navigationVC:self.navigationController];
     
 
     
-    self.dataSourceArray = [NSArray arrayWithObjects:model1, model2, model3, model4, model5, model6, model7, model8, nil];
+    self.dataSourceArray = [NSArray arrayWithObjects:model1, model2, model3, model4, model5, model6, model7, model8, model9, nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

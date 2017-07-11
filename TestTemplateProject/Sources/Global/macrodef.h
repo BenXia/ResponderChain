@@ -34,11 +34,7 @@ return shared##classname;\
 \
 + (instancetype)shared##classname {\
 \
-static dispatch_once_t onceToken;\
-dispatch_once(&onceToken, ^{\
-shared##classname = [[self alloc] init];\
-});\
-return shared##classname;\
+return [self sharedInstance];\
 }\
 \
 + (instancetype)allocWithZone:(struct _NSZone *)zone {\
@@ -75,11 +71,7 @@ return shared##classname;\
 \
 + (instancetype)shared##classname {\
 \
-static dispatch_once_t onceToken;\
-dispatch_once(&onceToken, ^{\
-shared##classname = [[self alloc] init];\
-});\
-return shared##classname;\
+return [self sharedInstance];\
 }\
 \
 + (instancetype)allocWithZone:(struct _NSZone *)zone {\
@@ -137,13 +129,12 @@ return MAXFLOAT;\
 
 /**
  *
- *  设备类型宏判断，提供给需要在不同机型的设备上的布局调整
+ * 设备类型宏判断，提供给需要在不同机型的设备上的布局调整
  *
  */
 #define IS_IPAD    (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #define IS_IPHONE  (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 #define IS_RETINA  ([[UIScreen mainScreen] scale] >= 2.0)
-
 
 // 警告处理方案
 #define IgnorePerformSelectorLeakWarning(Stuff) \
@@ -153,6 +144,9 @@ _Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
 Stuff; \
 _Pragma("clang diagnostic pop") \
 } while (0);
+
+// 是否打印相关日志
+#define BN_ENABLE_RESPONDCHAIN_LOGGING 0
 
 #endif
 

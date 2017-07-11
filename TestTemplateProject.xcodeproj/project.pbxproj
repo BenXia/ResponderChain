@@ -41,6 +41,18 @@
 		B50394D91EEE71E00016FA97 /* HomePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50394D71EEE71E00016FA97 /* HomePageVC.xib */; };
 		B50394DE1EEE71FB0016FA97 /* PlaygroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B50394DC1EEE71FB0016FA97 /* PlaygroundVC.m */; };
 		B50394DF1EEE71FB0016FA97 /* PlaygroundVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50394DD1EEE71FB0016FA97 /* PlaygroundVC.xib */; };
+		B50711981F147AD6008EC4AE /* BNPopoverBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B507118D1F147AD6008EC4AE /* BNPopoverBaseLayout.m */; };
+		B50711991F147AD6008EC4AE /* BNPopoverBottomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B507118F1F147AD6008EC4AE /* BNPopoverBottomLayout.m */; };
+		B507119A1F147AD6008EC4AE /* BNPopoverCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711911F147AD6008EC4AE /* BNPopoverCustomLayout.m */; };
+		B507119B1F147AD6008EC4AE /* BNPopoverMiddleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711931F147AD6008EC4AE /* BNPopoverMiddleLayout.m */; };
+		B507119C1F147AD6008EC4AE /* BNPopoverWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711951F147AD6008EC4AE /* BNPopoverWindow.m */; };
+		B507119D1F147AD6008EC4AE /* BNPopoverWindowRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711971F147AD6008EC4AE /* BNPopoverWindowRootVC.m */; };
+		B50711B01F14A522008EC4AE /* GestureDeepVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711AE1F14A522008EC4AE /* GestureDeepVC.m */; };
+		B50711B11F14A522008EC4AE /* GestureDeepVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50711AF1F14A522008EC4AE /* GestureDeepVC.xib */; };
+		B50711BE1F14A5A9008EC4AE /* CustomGestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711BC1F14A5A9008EC4AE /* CustomGestureVC.m */; };
+		B50711BF1F14A5A9008EC4AE /* CustomGestureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50711BD1F14A5A9008EC4AE /* CustomGestureVC.xib */; };
+		B50711C51F14B281008EC4AE /* ScratchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711C41F14B281008EC4AE /* ScratchGestureRecognizer.m */; };
+		B50711C81F14B2A5008EC4AE /* CheckGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711C71F14B2A5008EC4AE /* CheckGestureRecognizer.m */; };
 		B564802F1EF92268009CF536 /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B56480231EF92268009CF536 /* GCDGroup.m */; };
 		B56480301EF92268009CF536 /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B56480271EF92268009CF536 /* GCDQueue.m */; };
 		B56480311EF92268009CF536 /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = B56480291EF92268009CF536 /* GCDSemaphore.m */; };
@@ -134,6 +146,29 @@
 		B50394DB1EEE71FB0016FA97 /* PlaygroundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaygroundVC.h; sourceTree = "<group>"; };
 		B50394DC1EEE71FB0016FA97 /* PlaygroundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaygroundVC.m; sourceTree = "<group>"; };
 		B50394DD1EEE71FB0016FA97 /* PlaygroundVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaygroundVC.xib; sourceTree = "<group>"; };
+		B507118A1F147AD6008EC4AE /* BNPopoverCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverCommon.h; sourceTree = "<group>"; };
+		B507118C1F147AD6008EC4AE /* BNPopoverBaseLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverBaseLayout.h; sourceTree = "<group>"; };
+		B507118D1F147AD6008EC4AE /* BNPopoverBaseLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverBaseLayout.m; sourceTree = "<group>"; };
+		B507118E1F147AD6008EC4AE /* BNPopoverBottomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverBottomLayout.h; sourceTree = "<group>"; };
+		B507118F1F147AD6008EC4AE /* BNPopoverBottomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverBottomLayout.m; sourceTree = "<group>"; };
+		B50711901F147AD6008EC4AE /* BNPopoverCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverCustomLayout.h; sourceTree = "<group>"; };
+		B50711911F147AD6008EC4AE /* BNPopoverCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverCustomLayout.m; sourceTree = "<group>"; };
+		B50711921F147AD6008EC4AE /* BNPopoverMiddleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverMiddleLayout.h; sourceTree = "<group>"; };
+		B50711931F147AD6008EC4AE /* BNPopoverMiddleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverMiddleLayout.m; sourceTree = "<group>"; };
+		B50711941F147AD6008EC4AE /* BNPopoverWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverWindow.h; sourceTree = "<group>"; };
+		B50711951F147AD6008EC4AE /* BNPopoverWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverWindow.m; sourceTree = "<group>"; };
+		B50711961F147AD6008EC4AE /* BNPopoverWindowRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverWindowRootVC.h; sourceTree = "<group>"; };
+		B50711971F147AD6008EC4AE /* BNPopoverWindowRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverWindowRootVC.m; sourceTree = "<group>"; };
+		B50711AD1F14A522008EC4AE /* GestureDeepVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureDeepVC.h; sourceTree = "<group>"; };
+		B50711AE1F14A522008EC4AE /* GestureDeepVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureDeepVC.m; sourceTree = "<group>"; };
+		B50711AF1F14A522008EC4AE /* GestureDeepVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureDeepVC.xib; sourceTree = "<group>"; };
+		B50711BB1F14A5A9008EC4AE /* CustomGestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGestureVC.h; sourceTree = "<group>"; };
+		B50711BC1F14A5A9008EC4AE /* CustomGestureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGestureVC.m; sourceTree = "<group>"; };
+		B50711BD1F14A5A9008EC4AE /* CustomGestureVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomGestureVC.xib; sourceTree = "<group>"; };
+		B50711C31F14B281008EC4AE /* ScratchGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScratchGestureRecognizer.h; sourceTree = "<group>"; };
+		B50711C41F14B281008EC4AE /* ScratchGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScratchGestureRecognizer.m; sourceTree = "<group>"; };
+		B50711C61F14B2A5008EC4AE /* CheckGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckGestureRecognizer.h; sourceTree = "<group>"; };
+		B50711C71F14B2A5008EC4AE /* CheckGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckGestureRecognizer.m; sourceTree = "<group>"; };
 		B56480221EF92268009CF536 /* GCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
 		B56480231EF92268009CF536 /* GCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
 		B56480241EF92268009CF536 /* GCDMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDMacros.h; sourceTree = "<group>"; };
@@ -312,6 +347,8 @@
 				33EBA9111EF2D64C004624D7 /* SuspendViewDemo */,
 				33EBA9031EF2CE41004624D7 /* CircularSliderVC */,
 				33EBA90B1EF2D07B004624D7 /* GestureVC */,
+				B50711AC1F14A509008EC4AE /* GestureDeepVC */,
+				B50711B21F14A57A008EC4AE /* CustomGestureVC */,
 				B50394DA1EEE71FB0016FA97 /* Playground */,
 			);
 			path = ViewController;
@@ -453,6 +490,74 @@
 			path = Playground;
 			sourceTree = "<group>";
 		};
+		B50711891F147AD6008EC4AE /* BNPopoverWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B507118A1F147AD6008EC4AE /* BNPopoverCommon.h */,
+				B507118B1F147AD6008EC4AE /* BNPopoverLayoutStrategy */,
+				B50711941F147AD6008EC4AE /* BNPopoverWindow.h */,
+				B50711951F147AD6008EC4AE /* BNPopoverWindow.m */,
+				B50711961F147AD6008EC4AE /* BNPopoverWindowRootVC.h */,
+				B50711971F147AD6008EC4AE /* BNPopoverWindowRootVC.m */,
+			);
+			path = BNPopoverWindow;
+			sourceTree = "<group>";
+		};
+		B507118B1F147AD6008EC4AE /* BNPopoverLayoutStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				B507118C1F147AD6008EC4AE /* BNPopoverBaseLayout.h */,
+				B507118D1F147AD6008EC4AE /* BNPopoverBaseLayout.m */,
+				B507118E1F147AD6008EC4AE /* BNPopoverBottomLayout.h */,
+				B507118F1F147AD6008EC4AE /* BNPopoverBottomLayout.m */,
+				B50711901F147AD6008EC4AE /* BNPopoverCustomLayout.h */,
+				B50711911F147AD6008EC4AE /* BNPopoverCustomLayout.m */,
+				B50711921F147AD6008EC4AE /* BNPopoverMiddleLayout.h */,
+				B50711931F147AD6008EC4AE /* BNPopoverMiddleLayout.m */,
+			);
+			path = BNPopoverLayoutStrategy;
+			sourceTree = "<group>";
+		};
+		B50711AC1F14A509008EC4AE /* GestureDeepVC */ = {
+			isa = PBXGroup;
+			children = (
+				B50711AD1F14A522008EC4AE /* GestureDeepVC.h */,
+				B50711AE1F14A522008EC4AE /* GestureDeepVC.m */,
+				B50711AF1F14A522008EC4AE /* GestureDeepVC.xib */,
+			);
+			path = GestureDeepVC;
+			sourceTree = "<group>";
+		};
+		B50711B21F14A57A008EC4AE /* CustomGestureVC */ = {
+			isa = PBXGroup;
+			children = (
+				B50711C01F14B038008EC4AE /* 挠痒手势 */,
+				B50711C11F14B054008EC4AE /* 打勾手势 */,
+				B50711BB1F14A5A9008EC4AE /* CustomGestureVC.h */,
+				B50711BC1F14A5A9008EC4AE /* CustomGestureVC.m */,
+				B50711BD1F14A5A9008EC4AE /* CustomGestureVC.xib */,
+			);
+			path = CustomGestureVC;
+			sourceTree = "<group>";
+		};
+		B50711C01F14B038008EC4AE /* 挠痒手势 */ = {
+			isa = PBXGroup;
+			children = (
+				B50711C31F14B281008EC4AE /* ScratchGestureRecognizer.h */,
+				B50711C41F14B281008EC4AE /* ScratchGestureRecognizer.m */,
+			);
+			path = "挠痒手势";
+			sourceTree = "<group>";
+		};
+		B50711C11F14B054008EC4AE /* 打勾手势 */ = {
+			isa = PBXGroup;
+			children = (
+				B50711C61F14B2A5008EC4AE /* CheckGestureRecognizer.h */,
+				B50711C71F14B2A5008EC4AE /* CheckGestureRecognizer.m */,
+			);
+			path = "打勾手势";
+			sourceTree = "<group>";
+		};
 		B56480211EF92268009CF536 /* GCDObjC */ = {
 			isa = PBXGroup;
 			children = (
@@ -522,6 +627,7 @@
 				B56480451EF92346009CF536 /* BaseWindowRootVC */,
 				B5FA68A71EF26F870077349C /* BNNavigationController */,
 				B5FA68AA1EF26F870077349C /* BNTabBarController */,
+				B50711891F147AD6008EC4AE /* BNPopoverWindow */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -645,11 +751,13 @@
 				33EBA9101EF2D07B004624D7 /* GestureVC.xib in Resources */,
 				B50394D91EEE71E00016FA97 /* HomePageVC.xib in Resources */,
 				33EBA9391EF2FC23004624D7 /* BeyondSuperViewVC.xib in Resources */,
+				B50711B11F14A522008EC4AE /* GestureDeepVC.xib in Resources */,
 				B50394DF1EEE71FB0016FA97 /* PlaygroundVC.xib in Resources */,
 				33EBA9211EF2DB8F004624D7 /* FamiliarUsageVC.xib in Resources */,
 				B5FA68CF1EF287BD0077349C /* ResponderDescVC.xib in Resources */,
 				330F7C021ED334380009280A /* Assets.xcassets in Resources */,
 				33EBA9331EF2FB17004624D7 /* ScrollViewDemoVC.xib in Resources */,
+				B50711BF1F14A5A9008EC4AE /* CustomGestureVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,25 +824,32 @@
 				33144EF61EF05059006D27AC /* UIUtils.m in Sources */,
 				B5FA68AD1EF26F870077349C /* BaseViewController.m in Sources */,
 				B564802F1EF92268009CF536 /* GCDGroup.m in Sources */,
+				B50711C81F14B2A5008EC4AE /* CheckGestureRecognizer.m in Sources */,
 				B5FA68DF1EF2AE0D0077349C /* CustomTextField.m in Sources */,
 				B56480331EF92268009CF536 /* MBProgressHUD.m in Sources */,
 				B56480321EF92268009CF536 /* MBProgressHUD+Add.m in Sources */,
 				33EBA9381EF2FC23004624D7 /* BeyondSuperViewVC.m in Sources */,
 				B5FA68AE1EF26F870077349C /* BNNavigationController.m in Sources */,
 				33EBA93F1EF30060004624D7 /* UIView+PrintMessage.m in Sources */,
+				B50711BE1F14A5A9008EC4AE /* CustomGestureVC.m in Sources */,
 				B56480481EF92346009CF536 /* BasePopoverVC.m in Sources */,
 				33EBA9271EF2E8D4004624D7 /* CircularRespondAreaButton.m in Sources */,
+				B50711991F147AD6008EC4AE /* BNPopoverBottomLayout.m in Sources */,
 				33EBA93C1EF2FD1C004624D7 /* UIResponder+PrintMessage.m in Sources */,
 				33EBA92D1EF2EFBE004624D7 /* ShapeAreaButton.m in Sources */,
 				33EBA9241EF2DFC6004624D7 /* LargerResondAreaButton.m in Sources */,
+				B507119B1F147AD6008EC4AE /* BNPopoverMiddleLayout.m in Sources */,
 				B564803C1EF92301009CF536 /* UIView+Hierarchy.m in Sources */,
+				B507119D1F147AD6008EC4AE /* BNPopoverWindowRootVC.m in Sources */,
 				B50394D81EEE71E00016FA97 /* HomePageVC.m in Sources */,
 				B50394DE1EEE71FB0016FA97 /* PlaygroundVC.m in Sources */,
 				B5FA68DC1EF29C500077349C /* CustomControl.m in Sources */,
 				B5FA68D21EF28A8C0077349C /* BNCustomWindow.m in Sources */,
 				B5FA68CE1EF287BD0077349C /* ResponderDescVC.m in Sources */,
 				33EBA94A1EF314D4004624D7 /* ScrollViewSuperView.m in Sources */,
+				B50711B01F14A522008EC4AE /* GestureDeepVC.m in Sources */,
 				33EBA9321EF2FB17004624D7 /* ScrollViewDemoVC.m in Sources */,
+				B50711981F147AD6008EC4AE /* BNPopoverBaseLayout.m in Sources */,
 				330F7BF61ED333F00009280A /* AppDelegate.m in Sources */,
 				33EBA9091EF2CE41004624D7 /* TBCircularSlider.m in Sources */,
 				B5FA68D91EF293BF0077349C /* CustomButton.m in Sources */,
@@ -742,9 +857,12 @@
 				33EBA90F1EF2D07B004624D7 /* GestureVC.m in Sources */,
 				33EBA9471EF313BF004624D7 /* HackerScrollView.m in Sources */,
 				B56480311EF92268009CF536 /* GCDSemaphore.m in Sources */,
+				B507119A1F147AD6008EC4AE /* BNPopoverCustomLayout.m in Sources */,
+				B507119C1F147AD6008EC4AE /* BNPopoverWindow.m in Sources */,
 				33EBA91B1EF2D64C004624D7 /* SuspendViewDemoVC.m in Sources */,
 				B5FA68AF1EF26F870077349C /* BNTabBarController.m in Sources */,
 				B5FA68D61EF2924F0077349C /* CustomView.m in Sources */,
+				B50711C51F14B281008EC4AE /* ScratchGestureRecognizer.m in Sources */,
 				33EBA9191EF2D64C004624D7 /* CCHContentViewController.m in Sources */,
 				330F7C001ED333F00009280A /* main.m in Sources */,
 				B564803B1EF92301009CF536 /* UIImage+Blur.m in Sources */,
