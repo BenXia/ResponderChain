@@ -20,7 +20,7 @@
     self.view.backgroundColor = [UIColor colorWithRed:0.1 green:0.1 blue:0.1 alpha:1];
     
     //Create the Circular Slider
-    TBCircularSlider *slider = [[TBCircularSlider alloc]initWithFrame:CGRectMake(0, 60, TB_SLIDER_SIZE, TB_SLIDER_SIZE)];
+    TBCircularSlider *slider = [[TBCircularSlider alloc]initWithFrame:CGRectMake((kScreenWidth - TB_SLIDER_SIZE) / 2, 60, TB_SLIDER_SIZE, TB_SLIDER_SIZE)];
     
     //Define Target-Action behaviour
     [slider addTarget:self action:@selector(sliderValueChanged:) forControlEvents:UIControlEventValueChanged];

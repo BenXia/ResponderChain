@@ -19,7 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor greenColor];
     
     CGFloat w_2 = self.view.frame.size.width/2;
     
@@ -72,7 +71,8 @@
     
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(100, 100, 120, 60);
+    btn.frame = CGRectMake((kScreenWidth - 120) / 2, 100, 120, 60);
+    btn.titleLabel.textColor = [UIColor whiteColor];
     [self.view addSubview:btn];
     btn.backgroundColor = [UIColor grayColor];
     [btn setTitle:@"出来吧窗口" forState:UIControlStateNormal];
