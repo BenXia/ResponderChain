@@ -493,12 +493,12 @@
 		B50711891F147AD6008EC4AE /* BNPopoverWindow */ = {
 			isa = PBXGroup;
 			children = (
-				B507118A1F147AD6008EC4AE /* BNPopoverCommon.h */,
-				B507118B1F147AD6008EC4AE /* BNPopoverLayoutStrategy */,
 				B50711941F147AD6008EC4AE /* BNPopoverWindow.h */,
 				B50711951F147AD6008EC4AE /* BNPopoverWindow.m */,
 				B50711961F147AD6008EC4AE /* BNPopoverWindowRootVC.h */,
 				B50711971F147AD6008EC4AE /* BNPopoverWindowRootVC.m */,
+				B507118A1F147AD6008EC4AE /* BNPopoverCommon.h */,
+				B507118B1F147AD6008EC4AE /* BNPopoverLayoutStrategy */,
 			);
 			path = BNPopoverWindow;
 			sourceTree = "<group>";
@@ -510,10 +510,10 @@
 				B507118D1F147AD6008EC4AE /* BNPopoverBaseLayout.m */,
 				B507118E1F147AD6008EC4AE /* BNPopoverBottomLayout.h */,
 				B507118F1F147AD6008EC4AE /* BNPopoverBottomLayout.m */,
-				B50711901F147AD6008EC4AE /* BNPopoverCustomLayout.h */,
-				B50711911F147AD6008EC4AE /* BNPopoverCustomLayout.m */,
 				B50711921F147AD6008EC4AE /* BNPopoverCenterLayout.h */,
 				B50711931F147AD6008EC4AE /* BNPopoverCenterLayout.m */,
+				B50711901F147AD6008EC4AE /* BNPopoverCustomLayout.h */,
+				B50711911F147AD6008EC4AE /* BNPopoverCustomLayout.m */,
 			);
 			path = BNPopoverLayoutStrategy;
 			sourceTree = "<group>";
