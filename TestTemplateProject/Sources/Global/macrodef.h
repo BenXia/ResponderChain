@@ -2,12 +2,13 @@
 //  macrodef.h
 //  TestTemplateProject
 //
-//  Created by Ben on 2017/5/22.
-//  Copyright (c) 2017年 Ben. All rights reserved.
+//  Created by Ben on 1/26/15.
+//  Copyright © 2017年 iOSStudio. All rights reserved.
 //
 
 #ifndef BN_macrodef_h
 #define BN_macrodef_h
+
 
 // 单件.h中声明
 #undef BN_DEC_SINGLETON
@@ -27,7 +28,7 @@ static classname *shared##classname = nil;\
 \
 static dispatch_once_t onceToken;\
 dispatch_once(&onceToken, ^{\
-shared##classname = [[self alloc] init];\
+shared##classname = [[super allocWithZone:NULL] init];\
 });\
 return shared##classname;\
 } \
@@ -39,11 +40,7 @@ return [self sharedInstance];\
 \
 + (instancetype)allocWithZone:(struct _NSZone *)zone {\
 \
-static dispatch_once_t onceToken;\
-dispatch_once(&onceToken, ^{\
-shared##classname = [super allocWithZone:zone];\
-});\
-return shared##classname;\
+return [self sharedInstance];\
 }\
 \
 - (id)copyWithZone:(NSZone *)zone {\
@@ -64,7 +61,7 @@ static classname *shared##classname = nil;\
 \
 static dispatch_once_t onceToken;\
 dispatch_once(&onceToken, ^{\
-shared##classname = [[self alloc] init];\
+shared##classname = [[super allocWithZone:NULL] init];\
 });\
 return shared##classname;\
 } \
@@ -76,11 +73,7 @@ return [self sharedInstance];\
 \
 + (instancetype)allocWithZone:(struct _NSZone *)zone {\
 \
-static dispatch_once_t onceToken;\
-dispatch_once(&onceToken, ^{\
-shared##classname = [super allocWithZone:zone];\
-});\
-return shared##classname;\
+return [self sharedInstance];\
 }\
 \
 - (id)copyWithZone:(NSZone *)zone {\
@@ -94,12 +87,16 @@ return self;\
 - (oneway void)release {\
 }\
 \
+- (instancetype)autorelease {\
+    return self; \
+}\
+\
 - (instancetype)retain {\
 return self;\
 }\
 \
 - (NSUInteger)retainCount {\
-return MAXFLOAT;\
+return NSUIntegerMax;\
 }
 
 #endif
@@ -129,12 +126,13 @@ return MAXFLOAT;\
 
 /**
  *
- * 设备类型宏判断，提供给需要在不同机型的设备上的布局调整
+ *  设备类型宏判断，提供给需要在不同机型的设备上的布局调整
  *
  */
 #define IS_IPAD    (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #define IS_IPHONE  (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 #define IS_RETINA  ([[UIScreen mainScreen] scale] >= 2.0)
+
 
 // 警告处理方案
 #define IgnorePerformSelectorLeakWarning(Stuff) \
