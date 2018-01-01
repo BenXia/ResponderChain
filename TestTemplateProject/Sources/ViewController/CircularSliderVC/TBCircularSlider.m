@@ -168,7 +168,7 @@
     
     CGColorSpaceRef baseSpace = CGColorSpaceCreateDeviceRGB();
     CGGradientRef gradient = CGGradientCreateWithColorComponents(baseSpace, components, NULL, 2);
-    CGColorSpaceRelease(baseSpace), baseSpace = NULL;
+    (void)(CGColorSpaceRelease(baseSpace)), baseSpace = NULL;
     
     //Gradient direction
     CGPoint startPoint = CGPointMake(CGRectGetMidX(rect), CGRectGetMinY(rect));
@@ -176,7 +176,7 @@
     
     //Draw the gradient
     CGContextDrawLinearGradient(ctx, gradient, startPoint, endPoint, 0);
-    CGGradientRelease(gradient), gradient = NULL;
+    (void)(CGGradientRelease(gradient)), gradient = NULL;
     
     CGContextRestoreGState(ctx);
     

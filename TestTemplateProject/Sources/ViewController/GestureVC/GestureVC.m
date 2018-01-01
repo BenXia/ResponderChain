@@ -250,7 +250,7 @@
  */
 - (void)handleCustomGestureRecognizer:(ScratchGestureRecognizer *)recognizer {
     //代码块方式封装操作方法
-    void (^positionOperation)() = ^() {
+    void (^positionOperation)(void) = ^{
         CGPoint newPoint = recognizer.view.center;
         newPoint.y = 300;
         newPoint.x -= 20.0;
@@ -291,7 +291,7 @@
  */
 - (void)handleSwipe:(UISwipeGestureRecognizer *)recognizer {
     //代码块方式封装操作方法
-    void (^positionOperation)() = ^() {
+    void (^positionOperation)(void) = ^{
         CGPoint newPoint = recognizer.view.center;
         newPoint.y = 300;
         newPoint.y -= 20.0;
