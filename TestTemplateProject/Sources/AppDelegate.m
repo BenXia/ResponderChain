@@ -20,7 +20,7 @@
     
     // 数据初始化
     [[IQKeyboardManager sharedManager] setShouldResignOnTouchOutside:YES];
-    [[IQKeyboardManager sharedManager] setShouldShowTextFieldPlaceholder:NO];
+//    [[IQKeyboardManager sharedManager] setShouldShowTextFieldPlaceholder:NO];
     
     // 界面初始化
     self.window = [[BNCustomWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

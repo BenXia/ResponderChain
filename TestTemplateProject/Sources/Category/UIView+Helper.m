@@ -12,9 +12,9 @@ static NSMutableString *prefixStr;
 
 @implementation UIView (Helper)
 
-+ (void)initialize
++ (void)load
 {
-    prefixStr = [NSMutableString stringWithFormat:@""];
+    prefixStr = [[NSMutableString alloc] initWithString:@""];
 }
 
 + (NSArray *)sortedViewsOrderByTag:(NSArray *)views
